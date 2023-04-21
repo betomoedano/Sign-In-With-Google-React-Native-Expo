@@ -11,20 +11,21 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.betomoedano.googlesignin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.betomoedano.googlesignin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "myGoogleApp"
   }
 }
